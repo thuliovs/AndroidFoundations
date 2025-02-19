@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#000000">
+
+    <!-- Exibição do Estado do Sensor -->
+    <TextView
+        android:id="@+id/txtEstado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado do Sensor"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Exibição do Valor do Sensor -->
+    <TextView
+        android:id="@+id/txtValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distância: 0.00 cm"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Explicação do Sensor -->
+    <TextView
+        android:id="@+id/txtExplicacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:lineSpacingExtra="6dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:text="
+Explicação:
+
+Sensor de Proximidade:
+- Mede a distância entre um objeto e o dispositivo.
+- Retorna valores em centímetros (cm).
+- Se a distância for menor que o alcance máximo do sensor, um objeto é considerado próximo.
+" />
+</LinearLayout>

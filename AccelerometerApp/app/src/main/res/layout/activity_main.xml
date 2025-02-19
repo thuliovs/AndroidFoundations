@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#000000"> <!-- Fundo escuro -->
+
+    <!-- Exibição da Velocidade -->
+    <TextView
+        android:id="@+id/txtVelocidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Velocidade: 0.00 km/h"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Exibição dos Valores de Aceleração Linear -->
+    <TextView
+        android:id="@+id/txtX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aceleração X: 0.00 m/s²"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/txtY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aceleração Y: 0.00 m/s²"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/txtZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aceleração Z: 0.00 m/s²"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Exibição dos Valores com Gravidade -->
+    <TextView
+        android:id="@+id/txtGravidadeX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gravidade X: 0.00 m/s²"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/txtGravidadeY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gravidade Y: 0.00 m/s²"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/txtGravidadeZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gravidade Z: 0.00 m/s²"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Explicação Centralizada -->
+    <TextView
+        android:id="@+id/txtExplicacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:lineSpacingExtra="6dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:text="
+Explicação:
+
+Velocidade:
+Mostra a velocidade do dispositivo em km/h, calculada a partir da aceleração linear.
+
+Aceleração Linear (X, Y, Z):
+Mostra a aceleração em cada eixo sem incluir a gravidade. Reflete o movimento real do dispositivo.
+
+Gravidade (X, Y, Z):
+Mostra a aceleração total em cada eixo, incluindo o efeito da gravidade. É útil para medir a inclinação ou detectar a orientação do dispositivo.
+" />
+</LinearLayout>
