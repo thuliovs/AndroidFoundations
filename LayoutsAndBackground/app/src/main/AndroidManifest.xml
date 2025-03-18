@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.layoutsandbackground">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LayoutsAndBackground">
+
+        <!-- Activity principal -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.LayoutsAndBackground">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Activity para LinearLayout -->
+        <activity
+            android:name=".LinearLayoutActivity"
+            android:label="@string/linear_layout_title" />
+
+        <!-- Activity para RelativeLayout -->
+        <activity
+            android:name=".RelativeLayoutActivity"
+            android:label="@string/relative_layout_title" />
+
+        <!-- Activity para ConstraintLayout -->
+        <activity
+            android:name=".ConstraintLayoutActivity"
+            android:label="@string/constraint_layout_title" />
+
+        <!-- Activity para FrameLayout -->
+        <activity
+            android:name=".FrameLayoutActivity"
+            android:label="@string/frame_layout_title" />
+
+    </application>
+</manifest>

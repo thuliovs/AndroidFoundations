@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Layouts App</string>
+    <string name="text_overlay">Texto sobreposto</string>
+    <string name="select_layout">Selecione o Layout:</string>
+    <string name="linear_layout_button">Linear Layout</string>
+    <string name="relative_layout_button">Relative Layout</string>
+    <string name="constraint_layout_button">Constraint Layout</string>
+    <string name="frame_layout_button">Frame Layout</string>
+    <string name="linear_layout_title">Este é um LinearLayout</string>
+    <string name="relative_layout_title">Este é um RelativeLayout</string>
+    <string name="constraint_layout_title">Este é um ConstraintLayout</string>
+    <string name="frame_layout_title">Este é um FrameLayout</string>
+</resources>

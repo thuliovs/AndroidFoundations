@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Tema Principal do Aplicativo (Modo Escuro) -->
+    <style name="Theme.LayoutsApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Cor Primária -->
+        <item name="colorPrimary">@color/primaryDarkColor</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkerColor</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Cor Secundária -->
+        <item name="colorSecondary">@color/secondaryDarkColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryDarkerColor</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Fundo da Tela -->
+        <item name="android:windowBackground">@color/backgroundDarkColor</item>
+
+        <!-- Estilo do Texto -->
+        <item name="android:textColor">@color/textDarkColor</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+
+        <!-- Personalização de Botões -->
+        <item name="buttonStyle">@style/CustomButtonStyle.Dark</item>
+    </style>
+
+    <!-- Estilo de Botões Personalizado (Modo Escuro) -->
+    <style name="CustomButtonStyle.Dark" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/buttonDarkBackground</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+</resources>

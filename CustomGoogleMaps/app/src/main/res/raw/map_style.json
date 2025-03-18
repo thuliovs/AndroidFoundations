@@ -1,0 +1,10 @@
+[
+  {
+    "featureType": "water",
+    "stylers": [{"color": "#76c3fc"}]
+  },
+  {
+    "featureType": "road",
+    "stylers": [{"color": "#ffffff"}]
+  }
+]

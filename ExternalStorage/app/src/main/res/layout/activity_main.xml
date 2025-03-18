@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Entrada de texto -->
+        <EditText
+            android:id="@+id/editTextInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite algo para guardar"
+            android:padding="8dp" />
+
+        <!-- Bloco: Operações no Disco Externo -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp"
+            android:padding="8dp"
+            android:background="#E8EAF6">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Operações no Disco Externo"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:paddingBottom="8dp" />
+
+            <!-- Botões de Disco Externo Privado -->
+            <Button
+                android:id="@+id/btnSaveExternalPrivate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Guardar Privado no Disco Externo" />
+
+            <Button
+                android:id="@+id/btnReadExternalPrivate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ler do Disco Externo Privado" />
+
+            <Button
+                android:id="@+id/btnDeleteExternalPrivate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Remover do Disco Externo Privado" />
+
+            <!-- Botões de Disco Externo Público -->
+            <Button
+                android:id="@+id/btnSaveExternalPublic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Guardar Público no Disco Externo" />
+
+            <Button
+                android:id="@+id/btnReadExternalPublic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ler do Disco Externo Público" />
+
+            <Button
+                android:id="@+id/btnDeleteExternalPublic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Remover do Disco Externo Público" />
+        </LinearLayout>
+
+        <!-- Bloco: Operações no Cartão SD -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp"
+            android:padding="8dp"
+            android:background="#E8F5E9">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Operações no Cartão SD"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:paddingBottom="8dp" />
+
+            <!-- Botões de Cartão SD Privado -->
+            <Button
+                android:id="@+id/btnSaveSDPrivate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Guardar Privado no Cartão SD" />
+
+            <Button
+                android:id="@+id/btnReadSDPrivate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ler do Cartão SD Privado" />
+
+            <Button
+                android:id="@+id/btnDeleteSDPrivate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Remover do Cartão SD Privado" />
+
+            <!-- Botões de Cartão SD Público -->
+            <Button
+                android:id="@+id/btnSaveSDPublic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Guardar Público no Cartão SD" />
+
+            <Button
+                android:id="@+id/btnReadSDPublic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ler do Cartão SD Público" />
+
+            <Button
+                android:id="@+id/btnDeleteSDPublic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Remover do Cartão SD Público" />
+        </LinearLayout>
+
+        <!-- Saída -->
+        <TextView
+            android:id="@+id/textViewOutput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:padding="8dp"
+            android:background="#EFEFEF"
+            android:text="Saída será exibida aqui"
+            android:textColor="#000000" />
+    </LinearLayout>
+</ScrollView>

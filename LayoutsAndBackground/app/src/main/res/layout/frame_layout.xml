@@ -1,0 +1,76 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Imagem de Fundo -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/gradiente_cinza"
+        android:scaleType="centerCrop" />
+
+    <!-- Exemplo de Sobreposição: Texto sobre uma imagem -->
+    <ImageView
+        android:id="@+id/center_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/center_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texto Sobreposto"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_gravity="center" />
+
+    <!-- Botão para voltar -->
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="280dp" />
+
+    <!-- Botão no canto inferior direito -->
+    <Button
+        android:id="@+id/bottom_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Botão Inferior"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp" />
+
+    <!-- Imagem no canto superior esquerdo -->
+    <ImageView
+        android:id="@+id/top_left_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:layout_gravity="top|start"
+        android:layout_margin="16dp" />
+
+    <!-- Imagem no canto superior direito -->
+    <ImageView
+        android:id="@+id/top_right_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:layout_gravity="top|end"
+        android:layout_margin="16dp" />
+
+    <!-- Texto no centro inferior -->
+    <TextView
+        android:id="@+id/bottom_center_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texto Inferior Centralizado"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="64dp" />
+</FrameLayout>

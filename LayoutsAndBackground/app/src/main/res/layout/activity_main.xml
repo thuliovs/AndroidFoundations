@@ -1,0 +1,44 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/gradiente_cinza">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_layout"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/linear_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/linear_layout_button" />
+
+    <Button
+        android:id="@+id/relative_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/relative_layout_button"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/constraint_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/constraint_layout_button"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/frame_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/frame_layout_button"
+        android:layout_marginTop="8dp" />
+</LinearLayout>

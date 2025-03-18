@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Campo de entrada para o texto -->
+    <EditText
+        android:id="@+id/editTextInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite algo para guardar no ficheiro interno"
+        android:padding="8dp" />
+
+    <!-- Botão para salvar dados -->
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar"
+        android:layout_marginTop="8dp" />
+
+    <!-- Botão para ler dados -->
+    <Button
+        android:id="@+id/btnRead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ler"
+        android:layout_marginTop="8dp" />
+
+    <!-- Botão para excluir dados -->
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Excluir"
+        android:layout_marginTop="8dp" />
+
+    <!-- Área de texto para exibir o conteúdo -->
+    <TextView
+        android:id="@+id/textViewOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="O conteúdo do ficheiro interno será visualizado aqui "
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        android:background="#EFEFEF"
+        android:textColor="#000000" />
+</LinearLayout>

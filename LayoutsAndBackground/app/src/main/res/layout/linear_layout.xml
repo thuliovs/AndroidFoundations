@@ -1,0 +1,61 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradiente_cinza"
+    android:padding="16dp">
+
+    <!-- Título -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/linear_layout_title"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:textColor="#FFFFFF" />
+
+
+    <!-- Exemplo de Botão 1 -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exemplo de Botão 1"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Exemplo de Campo de Texto -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite algo aqui"
+        android:layout_marginBottom="16dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+    />
+
+
+    <!-- Exemplo de Imagem -->
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_thumbs_up"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Exemplo de Spinner (Dropdown) -->
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Botão para voltar -->
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:layout_gravity="center" />
+</LinearLayout>
+

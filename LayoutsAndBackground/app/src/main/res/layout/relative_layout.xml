@@ -1,0 +1,62 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiente_cinza">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/relative_layout_title"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Imagem abaixo do botão "Voltar" -->
+    <ImageView
+        android:id="@+id/example_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:layout_below="@id/button_back"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <!-- Texto à esquerda da imagem -->
+    <TextView
+        android:id="@+id/left_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texto Esquerda"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:layout_toStartOf="@id/example_image"
+        android:layout_alignBottom="@id/example_image"
+        android:layout_marginEnd="8dp" />
+
+    <!-- Texto à direita da imagem -->
+    <TextView
+        android:id="@+id/right_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texto Direita"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:layout_toEndOf="@id/example_image"
+        android:layout_alignBottom="@id/example_image"
+        android:layout_marginStart="8dp" />
+
+    <!-- Botão para voltar -->
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>

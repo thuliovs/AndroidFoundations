@@ -1,0 +1,12 @@
+<resources>
+    <color name="primaryColor">#1F1B24</color>
+    <color name="primaryDarkColor">#121212</color>
+    <color name="primaryDarkerColor">#0D0D0D</color>
+    <color name="secondaryColor">#BB86FC</color>
+    <color name="secondaryDarkColor">#3700B3</color>
+    <color name="secondaryDarkerColor">#1A1A40</color>
+    <color name="backgroundDarkColor">#121212</color>
+    <color name="textDarkColor">#E0E0E0</color>
+    <color name="buttonDarkBackground">#03DAC6</color>
+    <color name="white">#FFFFFF</color>
+</resources>
